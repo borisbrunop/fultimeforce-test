@@ -3,6 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
+import { CloudinaryModule } from './cloudinary';
 import { GoogleStrategy } from './google.strategy';
 import { Config } from './orm/orm.config';
 import { ProductsModule } from './products';
@@ -12,6 +13,7 @@ import { ProductsModule } from './products';
     ConfigModule.forRoot(),
     TypeOrmModule.forRoot(Config), 
     ProductsModule,
+    CloudinaryModule
   ],
   controllers: [AppController],
   providers: [AppService, GoogleStrategy],

@@ -24,14 +24,17 @@ export class Products extends BaseEntity{
     attributes?: JSONObject;
 
     @Column({type: 'varchar', length: 20, nullable: false})
-    sku?: string;
+    sku: string;
 
     @Column({type: 'int', nullable: false})
-    price?: number;
+    price: number;
 
     @Column({type: 'varchar', nullable: false})
-    name?: string;
+    name: string;
 
     @Column({type: 'text', nullable: true, default: null})
     description?: string;
+
+    @Column({type: 'text', nullable: true, default: null})
+    image_url?: string;
 }
