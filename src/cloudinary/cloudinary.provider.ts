@@ -5,9 +5,9 @@ export const CloudinaryProvider = {
   provide: CLOUDINARY,
   useFactory: (): ConfigOptions => {
     return v2.config({
-      cloud_name: 'cormineco',
-      api_key: '163954872246677',
-      api_secret: 'LA_k47T84Dm8A3yrvDh3LlDvXtU',
+      cloud_name: process.env.CLOUDINARY_NAME,
+      api_key: process.env.CLOUDINARY_API_KEY,
+      api_secret: process.env.CLOUDINARY_API_SECRET,
     });
   },
 };

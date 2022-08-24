@@ -11,9 +11,9 @@ import { ProductsModule } from './products';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    TypeOrmModule.forRoot(Config), 
+    TypeOrmModule.forRoot(Config),
     ProductsModule,
-    CloudinaryModule
+    CloudinaryModule,
   ],
   controllers: [AppController],
   providers: [AppService, GoogleStrategy],
