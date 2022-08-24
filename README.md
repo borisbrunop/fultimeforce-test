@@ -24,10 +24,9 @@
 
 # STEPS TO RUN THIS APP LOCALLY
 
-### 1 - Clone the Repository
+## 1 - Clone the Repository
 
-    Open a terminal and run this sequence of commands to clone the repository and to open it on Visual Studio Code. 
-    If you use another code editor do not run the second command and open the file in the code editor of your preference.
+####    Open a terminal and run this sequence of commands to clone the repository and to open it on Visual Studio Code. If you use another code editor do not run the second command and open the file in the code editor of your preference.
 
 - Clone the repository, this will create a new folder with the name of your preference
 ```bash
@@ -38,17 +37,16 @@ $ git clone https://github.com/borisbrunop/fultimeforce-test.git ~name of your p
  $ cd ~name that you assign before~ && code .
 ```
 
-### 2 - Change the Branch and Install all the dependencies 
+## 2 - Change the Branch and Install all the dependencies 
 
-    Once you open the folder with your code editor run this commands in the terminal of the cloned respository 
-    to change the branch to develop and to install all the dependencies. Please run the commands in the given order
+####    Once you open the folder with your code editor run this commands in the terminal of the cloned respository to change the branch to develop and to install all the dependencies. Please run the commands in the given order
 
--To change branch
+- To change branch
 ```bash
 $ git checkout develop
 ```
 
--To install all the dependencies, this will create a new folder called 'node_modules'
+- To install all the dependencies, this will create a new folder called 'node_modules'
 ```bash
 $ npm i -a 
 ```
@@ -57,19 +55,20 @@ or
 yarn install
 ```
 
-### 3 - Crate Enviroment Variables
+## 3 - Crate Enviroment Variables
 
-    Create a new file called '.env' to store all the enviroment variables, copy and paste the next lines inside the file .env file do not forget to save the file before you move on to the next step.
+####    Create a new file called '.env' to store all the enviroment variables, copy and paste the next lines inside the file .env file do not forget to save the file before you move on to the next step.
 
+```bash
 ENV=development
 PORT=4000
 CLOUDINARY_NAME=cormineco
 CLOUDINARY_API_KEY=163954872246677
 CLOUDINARY_API_SECRET=LA_k47T84Dm8A3yrvDh3LlDvXtU
+```
 
-### 4 - Run the App
-    Run this script the same way you did in step 2 to start the proyect in localhost. 
-    Before running this script please make sure that you dont have anything running in the localhost:4000 port
+## 4 - Run the App
+####    Run this script the same way you did in step 2 to start the proyect in localhost. Before running this script please make sure that you dont have anything running in the localhost:4000 port
 
 ```bash
 $ npm run start:dev
@@ -79,7 +78,7 @@ $ npm run start:dev
  $ yarn run start:dev
 ```
 
-### 5 - Run the Front-end App
+## 5 - Run the Front-end App
   Finally go to the next link and follow the README steps to run the app locally. 
   [link to the web-app repository](https://github.com/borisbrunop/fultimeforce-test)
 
