@@ -22,7 +22,11 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-# STEPS TO RUN THIS APP LOCALLY
+## Description
+
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+# STEPS TO RUN MY APP LOCALLY
 
 ## 1 - Clone the Repository
 
@@ -80,62 +84,14 @@ $ npm run start:dev
 
 ## 5 - Run the Front-end App
   Finally go to the next link and follow the README steps to run the app locally. 
-  [link to the web-app repository](https://github.com/borisbrunop/fultimeforce-test)
+  [link to the web-app repository](https://github.com/borisbrunop/fulltimeforce-test-app)
 
 Thank you for the opportunity, have a nice day!!
 
-
-
-
-
-
-
-
-## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-## Installation
-
-```bash
-$ npm install
-```
-
-## Running the app
-
-```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Author - [Boris Bruno](https://borisbruno.netlify.app/)
 - Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
