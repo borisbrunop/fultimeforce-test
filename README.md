@@ -34,11 +34,11 @@
 
 - Clone the repository, this will create a new folder with the name of your preference
 ```bash
-$ git clone https://github.com/borisbrunop/fultimeforce-test.git ~name of your preference~
+$ git clone https://github.com/borisbrunop/fultimeforce-test.git 'name of your preference'
 ```
 - Open Visual Studio Code in the folder that you created before
 ```bash
- $ cd ~name that you assign before~ && code .
+ $ cd 'name that you assign before' && code .
 ```
 
 ## 2 - Change the Branch and Install all the dependencies 
@@ -56,7 +56,7 @@ $ git checkout develop
 $ npm i -a 
 
 # for yarn users
-yarn install
+$ yarn install
 ```
 
 ## 3 - Crate Enviroment Variables
