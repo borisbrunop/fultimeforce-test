@@ -48,10 +48,10 @@ $ git checkout develop
 
 - To install all the dependencies, this will create a new folder called 'node_modules'
 ```bash
+# for npm users
 $ npm i -a 
-```
-or 
-```bash
+
+# for yarn users
 yarn install
 ```
 
@@ -71,10 +71,10 @@ CLOUDINARY_API_SECRET=LA_k47T84Dm8A3yrvDh3LlDvXtU
 ####    Run this script the same way you did in step 2 to start the proyect in localhost. Before running this script please make sure that you dont have anything running in the localhost:4000 port
 
 ```bash
+# for npm users
 $ npm run start:dev
-```
- or 
-```bash 
+
+# for yarn users
  $ yarn run start:dev
 ```
 
