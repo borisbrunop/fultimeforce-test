@@ -25,6 +25,7 @@
 # STEPS TO RUN THIS APP LOCALLY
 
 ## 1 - Clone the Repository
+
     Open a terminal and run this sequence of commands to clone the repository and to open it on Visual Studio Code. 
     If you use another code editor do not run the second command and open the file in the code editor of your preference.
 
@@ -38,6 +39,7 @@ $ git clone https://github.com/borisbrunop/fultimeforce-test.git ~name to your p
 ```
 
 ## 2 - Change the Branch and Install all the dependencies 
+
     Once you open the folder with your code editor run this commands in the terminal of the cloned respository 
     to change the branch to develop and to install all the dependencies. Please run the commands in the given order
 
@@ -56,6 +58,7 @@ yarn install
 ```
 
 ## 3 - Crate Enviroment Variables
+
     Create a new file called '.env' to store all the enviroment variables, copy and paste the next lines inside the file .env file do not forget to save the file before you move on to the next step.
 
 ENV=development
